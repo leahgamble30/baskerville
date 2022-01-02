@@ -20,7 +20,7 @@ section, header, footer {
     width: 80%;
     max-width: 700px;
     margin: auto;
-    padding: 0em 0em 0em 0em;}
+    padding: 1em;}
 
 section{
     margin-bottom: 10rem;
@@ -41,6 +41,11 @@ header{
 header p {
     color:#721A22;
 
+}
+
+header h1{
+    color:#E2D4B0;
+    padding:2em;
 }
 
 h2{
@@ -75,9 +80,9 @@ p{
 
 p {font-family: mr-eaves-sans, sans-serif;} 
 
-header h1h2{
+header h1 h2{
     color: #423F4D;
-    padding: 5rem;
+    padding: 2rem;
     font-weight: normal;
     margin: 5rem;
 }
@@ -86,9 +91,9 @@ header h1h2{
 
 p{
     color: #423F4D;
-    padding: 5rem;
+    padding: 2rem;
     font-weight: normal;
-    margin: 5rem;
+    margin: 2rem;
 
 }
 
@@ -121,17 +126,21 @@ color: #423F4D;
 }
 
 
-
 blockquote {
     padding: 0em;
     line-height: 1.4;
-    color: #E2D4B0}
+    color: #E2D4B0;
+    font-family: liebelotte, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 2em;
+}
 
 h1 {
     font-size: 5.653rem;
-    margin-top: 4rem;
-    padding-bottom: 0;
-padding: 1em;
+    margin-top: 2rem;
+    padding-bottom: 0em;
+    padding: 0em;
 }
 
 h2 {
@@ -141,9 +150,14 @@ h2 {
 blockquote p {
     font-style: italic;
     font-size: 1.999rem;
+    padding:2em;
     color: #E2D4B0;
     hanging-punctuation: none;
-    text-indent: -0.75rem;}
+    text-indent: -0.75rem;
+    font-family: liebelotte, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
 
 blockquote cite {
     font-style: normal;
